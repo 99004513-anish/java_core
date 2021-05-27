@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Test1 {
+public class CricketScore {
 
 	public static void main(String[] args) {
 		
