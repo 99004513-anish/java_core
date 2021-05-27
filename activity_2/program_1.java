@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Employee{
 	private String name,addr,mobile;
 	Scanner s = new Scanner(System.in);
-	public void getDetails() {
+	public void setDetails() {
 		System.out.println("Enter th name:");
 		name = s.nextLine();
 		System.out.println("Enter Address:");
@@ -10,7 +10,7 @@ class Employee{
 		System.out.println("Enter Mobile:");
 		mobile = s.nextLine();
 	}
-	public void setDetails() {
+	public void getDetails() {
 		System.out.println("Employee Details");
 		System.out.println("Name: "+name);
 		System.out.println("Address: "+addr);
@@ -26,7 +26,7 @@ public class EmployeeMain{
 		
 		Employee e = new Employee();
 		
-		e.getDetails();
 		e.setDetails();
+		e.getDetails();
 	}
 }
