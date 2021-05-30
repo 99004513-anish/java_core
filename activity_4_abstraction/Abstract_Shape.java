@@ -21,7 +21,7 @@ class Square extends Shape{
 	}
 }
 
-public class Abstract{
+public class Abstract_Shape{
 	public static void main(String args[]) {
 		int value;
 		int shape;
