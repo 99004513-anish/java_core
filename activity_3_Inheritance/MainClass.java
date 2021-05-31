@@ -76,7 +76,7 @@ public class MainClass{
 		switch(choice) {
 			
 		case 1 : System.out.println("Vehicle Make:");
-				 make = s.nextLine();
+				 make = s.next();
 				 
 				 System.out.println("Vehicle Number:");
 				 vehicleNo = s.nextLine();
@@ -91,7 +91,7 @@ public class MainClass{
 				 int noOfDoors;
 				 
 				 System.out.println("Audio System:");
-				 audioSystem = s.nextLine();
+				 audioSystem = s.next();
 				 System.out.println("Number of Doors:");
 				 noOfDoors = s.nextInt();
 				 
@@ -102,7 +102,7 @@ public class MainClass{
 				 
 		
 		case 2 : System.out.println("Vehicle Make:");
-				 make = s.nextLine();
+				 make = s.next();
 				 
 				 System.out.println("Vehicle Number:");
 				 vehicleNo = s.nextLine();
